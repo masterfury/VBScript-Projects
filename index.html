@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>VBS Training Assessment</title>
+	<link rel="stylesheet" href="styles.css">
+	<script type="text/vbscript" src="verifier.vbs"></script>
+  </head>
+  <body>
+     <!--start of sidebar-->
+     <div class="sidebar">
+	   <div class="sidebar-side">
+	   </div>
+	   <div class="logo">
+	       <font size="255px" style="font-family:Helvetica" color="white">B</font>
+		   <font size="255px" id="font-2" style="font-family:Helvetica" color="white">D</font>
+		   <font size="255px" id="font-3" style="font-family:Helvetica" color="#ffcc00">O</font>
+	   </div>
+	   <div class="text-2">
+	     <p>WITHDRAW CASH</p>
+	   </div>
+       <div class="text-3">
+	     <p>Enter</br>Account</br>Number</p>
+       </div>
+       <div class="text-4">
+	     <p>We Find Ways</p>
+       </div>	   
+	 </div>
+	 <!--end of sidebar-->
+	 <!--start of main-->
+	 <div class="title">
+	    <p>ONLINE ACCOUNT VERIFIER 2022</p>
+	 </div>
+	 <div class="container">
+	    <form name="entryfields">
+		  <div class="fields">
+		    <input type="text" id="input-fields" required minlength="12" maxlength ="16" disabled> 
+		  </div>
+		  <div class="card">
+		       <button  type = "button" id="n" class ="btn-num" onClick = "inputValue(1)">&nbsp;1&nbsp;</button>
+               <button  type = "button" id="n" class ="btn-num" onClick = "inputValue(2)">&nbsp;2&nbsp;</button>
+	           <button  type = "button" id="n" class ="btn-num" onClick = "inputValue(3)">&nbsp;3&nbsp;</button>
+			   <button  type = "button" id="n-clear" class ="btn-num" onClick = "ClearFields()">&nbsp;Clr&nbsp;</button>
+			   <button  type = "button" id="n" class ="btn-num" onClick = "inputValue(4)">&nbsp;4&nbsp;</button>
+               <button  type = "button" id="n" class ="btn-num" onClick = "inputValue(5)">&nbsp;5&nbsp;</button>
+	           <button  type = "button" id="n" class ="btn-num" onClick = "inputValue(6)">&nbsp;6&nbsp;</button>
+			   <button  type = "button" id="num-delete" class ="btn-num" onClick = "DeleteLastDigit()">&nbsp;Del&nbsp;</button>
+			   <button  type = "button" id="n" class ="btn-num" onClick = "inputValue(7)">&nbsp;7&nbsp;</button>
+	           <button  type = "button" id="n" class ="btn-num" onClick = "inputValue(8)">&nbsp;8&nbsp;</button>
+			   <button  type = "button" id="n" class ="btn-num" onClick = "inputValue(9)">&nbsp;9&nbsp;</button>
+			   <button  type = "button" id="n" class ="btn-num hidden" onClick = "#">&nbsp;0&nbsp;</button>
+			   <button  type = "button" id="n" class ="btn-num hidden" onClick = "#">&nbsp;0&nbsp;</button>
+		       <button  type = "button" id="n" class ="btn-num" onClick = "inputValue(0)">&nbsp;0&nbsp;</button>
+			   <button  type = "button" id="num-ok" class ="btn-numOK" onClick = "getMessage()" disabled>&nbsp;OK&nbsp;</button>			   		 
+		  </div>
+		</form>
+	 </div>
+	 <!--end of main-->
+  </body>
+</html>

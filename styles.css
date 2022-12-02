@@ -1,0 +1,162 @@
+*{
+
+    padding:0;
+	margin:0;
+	box-sizing:border-box;
+	
+
+ }
+ 
+ body{
+	 
+	 font-family: Arial, Helvetica, sans-serif; 
+ }
+ 
+ .sidebar{
+	 
+	width:280px;
+	background-color:#0F52BA;
+	height:100%;
+    position:fixed;
+ }
+ 
+ .sidebar .sidebar-side{
+	  
+	 width:20px;
+	 height:100%;
+	 position:fixed;
+	 background-color:#1363DF;
+ }
+ 
+ .logo{
+	margin-left:45px;
+	margin-top:45px;
+	font-weight:bold;
+	height:100px;
+ }
+ 
+ #font-2{
+	 margin-left:-11px;
+ }
+ #font-3{
+	 margin-left:-11px;
+	 width:70px;
+ }
+ 
+ .text-2{
+	 
+	margin-left:45px;
+	margin-top:50px;
+    color:#ffcc00;
+	font-weight:bold;
+	font-size:20px;
+	font-family:Calibri;
+	
+ }
+ 
+ .text-3{
+	 margin-left:45px;
+	 color:white;
+	 font-size:40px;
+	 font-family:Calibri;
+	 font-weight:bold;
+	 margin-top:70px;
+ }
+ 
+ .text-4{
+	font-size:25px;
+	font-weight:bold;
+	color:#ffcc00;
+	margin-left:45px;
+	margin-top:130px;
+	font-family:cursive;
+	text-decoration:overline;
+
+  }
+  
+ .title p{
+     margin-left:350px;  	
+  	 color:#E8E8E8;
+     font-family:Helvetica;
+     font-size:22px;
+     padding-top:40px;
+	 text-shadow:2px 2px #189AB4;
+	 font-weight:bold;
+  	 
+ }
+ 
+ .container{	  
+	 margin-left:350px;    	 
+ }
+ 
+ #input-fields{
+	 
+	 margin-top:60px;
+	 padding-left:7px;
+	 border:1px #87CDF6 solid;
+     width:230px;
+	 height:50px;
+	 border-radius: 0.5em;
+	 font-size:20px;
+	 font-family:Helvetica;
+	 font-weight:bold;
+	 background-color:transparent;
+	 color:black;
+     	 
+ }
+ 
+ .card{
+	 margin-top:12px;
+	 width:230px;
+	 border:1px #87CDF6 solid;
+	 border-radius: 0.5em;
+	 height:234px;
+	 padding:12px;	
+ }
+ 
+ .btn-num{
+	 
+	 width:47px;
+	 height:47px;
+	 background-color:#a7cde9;
+	 border-radius: 0.5em;
+	 border:0px;
+	 margin-bottom:6px;
+	 font-weight:bold;
+	 font-family:cursive;
+	 cursor: pointer;
+	 
+ }
+ 
+ .btn-num:hover{
+	 border:2px #ffcc00 solid;
+ }
+ 
+.hidden
+{
+  visibility: hidden;
+}
+ 
+ 
+ .btn-numOK{
+	 
+	 width:100px;
+	 height:47px;
+	 border-radius: 0.5em;
+     background-color:#a7cde9;
+	 border:0px;
+	 background-color:#1363DF;
+	 font-weight:bold;
+	 font-family:cursive;
+	 cursor: pointer;
+	 
+ }
+ 
+ .btn-numOK:hover{
+	  border:2px #ffcc00 solid;
+ }
+
+ 
+ 
+ 
+ 
